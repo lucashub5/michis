@@ -5,40 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="style.css">
 
-  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <title>Feliz navidad!!</title>
 
 </head>
 <body>
     <div class="position-container">
         <div class="cats">
-            <img src="images/gretis.gif" alt="Gretis">
-            <img src="images/lunis.gif" alt="Lunis">
+            <div class="cat-box">
+                <img id="cajaMumi" src="images/cajamumi.gif" alt="Mumu" onclick="toggleVisibilityMumi()">
+                <img id="mumi" src="images/mumis.gif" alt="Mumis" style="display: none;"> 
+            </div>
+            <div class="cat-box">
+                <img id="cajaLuni" src="images/cajaluni.gif" alt="CajaLunis" onclick="toggleVisibilityLuni()">
+                <img id="luni" src="images/lunis.gif" alt="Lunis" style="display: none;">
+            </div>
         </div>
         <div class="arbol">
             <img src="images/arbol.gif" alt="Arbol">
         </div>
         <div class="cats">
-            <img src="images/pichuli.gif" alt="Pichuli">
-            <img src="images/mumis.gif" alt="Mumis"> 
+            <div class="cat-box">
+                <img id="cajaPichi" src="images/cajapichi.gif" alt="Pichi" onclick="toggleVisibilityPichi()">
+                <img id="pichi" src="images/pichuli.gif" alt="Pichuli" style="display: none;">
+            </div>
+            <div class="cat-box">
+                <img id="cajaGreti" src="images/cajagreti.gif" alt="CajaGreti" onclick="toggleVisibilityGreti()">
+                <img id="greti" src="images/gretis.gif" alt="Gretis" style="display: none;">
+            </div>
         </div>
     </div>
-            <div class="cat luni">
-                <img src="images/cajaluni.gif" alt="Arbol">
 
-            </div>
-            <div class="cat greti">
-                <img src="images/cajagreti.gif" alt="Arbol">
-
-            </div>
-            <div class="cat pichuli">
-                <img src="images/cajapichi.gif" alt="Arbol">
-
-            </div>
-            <div class="cat mumi">
-                <img src="images/cajamumi.gif" alt="Arbol">
-
-            </div>
-            
-
+    <script src="script.js"></script>
 </body>
 </html>
